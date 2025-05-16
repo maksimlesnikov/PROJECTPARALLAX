@@ -67,7 +67,7 @@ audio {
   display: none;
 }
 #rainbutton {
-  background-color: aquamarine;
+  background-color: rgb(255, 0, 0);
   border-radius: 50%;
   width: 100px;
   aspect-ratio: 1/1;
