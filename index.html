@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parallax3D</title>
+  </head>
+  <link rel="stylesheet" href="./assets/css/index.css" />
+  <script src="./assets/js/index.js"></script>
+  <script src="./assets/js/rain.js" defer></script>
+  <script defer src="./assets/js/audio.js"></script>
+  <body>
+    <main class="layers">
+      <div class="layers_container">
+        <div class="layers_item layer-1"></div>
+        <div class="layers_item layer-2"></div>
+        <div class="layers_item layer-3">
+          <button id="rainbutton">Остановить дождь</button>
+        </div>
+
+        <div class="layers_item layer-4">
+          <canvas id="rain"></canvas>
+        </div>
+        <div class="layers_item layer-5"></div>
+        <div class="layers_item layer-6"></div>
+      </div>
+    </main>
+    <audio src="./assets/music/birds.mp3" controls id="birdsaudio"></audio>
+    <audio
+      src="./assets/music/leavesfall.mp3"
+      controls
+      id="leavesaudio"
+    ></audio>
+    <audio src="./assets/music/rainfall.mp3" controls id="rainaudio"></audio>
+  </body>
+</html>
